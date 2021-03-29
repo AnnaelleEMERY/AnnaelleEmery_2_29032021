@@ -1,0 +1,10 @@
+p{
+    width: 50%;
+    min-height: 400px;
+}
+
+p{
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+}
