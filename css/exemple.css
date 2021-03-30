@@ -1,3 +1,17 @@
+nav{
+    display: inline-block;
+    width: 15em;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+section{
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+
 p{
     width: 18em;
     height: 8em;
@@ -10,3 +24,31 @@ p{
     word-wrap: break-word;
 }
 
+strong{
+    background-color: darkslateblue;
+    color: yellow;
+    position: relative;
+    bottom: 3px;
+}
+
+#conteneur{
+    height: 3em;
+    width: 20em;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.element:nth-child(1){
+    background-color: darkred;
+    
+}
+
+.element:nth-child(2){
+    background-color: darkkhaki;
+}
+
+.element:nth-child(3){
+    background-color: darkslateblue;
+}
