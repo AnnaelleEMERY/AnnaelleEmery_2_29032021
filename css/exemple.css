@@ -1,10 +1,12 @@
 p{
-    width: 50%;
-    min-height: 400px;
+    width: 18em;
+    height: 8em;
+    border: 1px solid black;
+    padding: 0.5em;
+    text-align: left;
+    margin: auto; /* premier chiffre : haut et bas
+                        deuxieme chiffre : gauce et droite*/
+    overflow: auto;
+    word-wrap: break-word;
 }
 
-p{
-    width: 21em;
-    border: 1px solid black;
-    text-align: justify;
-}
