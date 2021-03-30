@@ -1,0 +1,84 @@
+
+
+
+
+#Bloc_Page{
+    width: 95%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+header{
+    border: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+    #Titre_du_site{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        border: black 1px solid;
+    }
+
+    #Menu_du_header{
+        border: black 1px solid;
+        width: 45%;
+    }
+
+    #ul_menu{
+        list-style-type: none;
+        display: flex;
+    }
+
+    .elements_menu{
+        margin-right: 1em;
+        font-size: 1.3em;
+        border: black 1px solid;
+    }
+
+
+
+
+
+
+
+
+
+#Bloc_de_recherche{
+    
+}
+
+#Filtres{
+    
+}
+
+#Les_deux_gros_blocs{
+    
+}
+
+#Hebergements{
+    
+}
+
+#Les_plus_populaires{
+    
+}
+
+#A_propos{
+    
+}
+
+#Nos_hébergements{
+    
+}
+
+#Assistance{
+    
+}
+
+
+footer{
+    
+}
