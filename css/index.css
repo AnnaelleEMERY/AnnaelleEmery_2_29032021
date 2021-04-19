@@ -2,74 +2,90 @@
 
 
 
-#Bloc_Page{
-    width: 95%;
+.Bloc_Page{
+    width: 100%;
     margin: auto;
     border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
 }
 
 header{
-    border: black 1px solid;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
-    #Titre_du_site{
+    .Titre_du_site{
+        margin: 1em 0 0 0;
+    }
+
+    .Menu_du_header{
         display: flex;
         flex-direction: row;
-        align-items: baseline;
-        border: black 1px solid;
     }
 
-    #Menu_du_header{
-        border: black 1px solid;
-        width: 45%;
-    }
-
-    #ul_menu{
+    .ul_menu{
         list-style-type: none;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: 100%;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    .elements_menu{
-        margin-right: 1em;
+    .elements_menu, .elements_menu_3{
         font-size: 1.3em;
-        border: black 1px solid;
+        margin: 0 0 0 0;
+        padding: 1em 2em 1em 2em;
+    }
+
+    .elements_menu_3:hover{
+        color: #0065FC;
+        border-top: 2px #0065FC solid;
+    }
+
+    .elements_menu:hover{
+        color: #0065FC;
+        border-top: 2px #0065FC solid;
+    }
+
+    .elements_menu_3{
+        color: #0065FC;
+        font-weight: 700;
     }
 
 
-
-
-#Bloc_de_recherche{
+.Bloc_de_recherche{
     
 }
 
-#Filtres{
+.Filtres{
     
 }
 
-#Les_deux_gros_blocs{
+.Les_deux_gros_blocs{
     
 }
 
-#Hebergements{
+.Hebergements{
     
 }
 
-#Les_plus_populaires{
+.Les_plus_populaires{
     
 }
 
-#A_propos{
+.A_propos{
     
 }
 
-#Nos_hébergements{
+.Nos_hébergements{
     
 }
 
-#Assistance{
+.Assistance{
     
 }
 
