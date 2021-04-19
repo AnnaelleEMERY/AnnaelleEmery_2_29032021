@@ -2,11 +2,15 @@
 
 
 
-.Bloc_Page{
+body{
     width: 100%;
     margin: auto;
-    border: 1px solid black;
     font-family: 'Raleway', sans-serif;
+}
+
+.main{
+    border: 1px black solid;
+    margin: 0 1.5em 0 1.5em;
 }
 
 header{
@@ -57,12 +61,113 @@ header{
     }
 
 
+
 .Bloc_de_recherche{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.site_search{
+    border: 1px #F2F2F2 solid;
+    display: block;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+}
+
+.fa-map-marker-alt{
+    color: black;
+    padding: 0.75em 0.8em 0.75em 0.8em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #F2F2F2;
+}
+
+.bouton_recherche{
+    margin: 0;
+    color: white;
+    font-weight: 800;
+    background-color: #0065FC;
+    border-color: #0065FC;
+    border: 0;
+    padding: 0.8em 1em 0.8em 1em;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .Filtres{
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 1em;
+    font-weight: 800;
+}
+
+.titre_filtre{
+    align-self: center;
+    padding-right: 1em;
+}
+
+.blocs_filtres{
+    border: 1.5px solid #DEEBFF;
+    border-radius: 25px;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+
+.fa-money-bill-wave{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 0.6em;
+    border-radius: 100%;
+    margin-right: 0.5em;
+    padding: 0.6em 0.5em 0.6em 0.5em;
+}
+
+.fa-child{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 0.6em;
+    border-radius: 100%;
+    margin-right: 0.5em;
+    padding: 0.6em 0.7em 0.6em 0.7em;
+}
+
+.fa-heart{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 0.6em;
+    border-radius: 100%;
+    margin-right: 0.5em;
+    padding: 0.6em 0.7em 0.6em 0.7em;
+}
+
+.fa-dog{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 0.6em;
+    border-radius: 100%;
+    margin-right: 0.5em;
+    padding: 0.6em 0.7em 0.6em 0.7em;
+}
+
+.bloc_du_petit_i{
+    margin-left: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.fa-info{
+    color: #0065FC;
+    font-size: 0.8em;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    border: 2px #F2F2F2 solid;
+    border-radius: 100%;
+    margin-right: 0.5rem;
 }
 
 .Les_deux_gros_blocs{
@@ -95,6 +200,10 @@ footer{
     flex-direction: row;
     background-color: #F2F2F2;
     padding: 2em 0 2em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 0 0 0;
 }
 
     .bloc_footer{
@@ -109,3 +218,13 @@ footer{
     .titres_footer{
         margin-left: 2.2em;
     }
+
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    }
+
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    }
+
