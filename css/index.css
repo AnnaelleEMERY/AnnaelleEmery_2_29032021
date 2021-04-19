@@ -91,5 +91,21 @@ header{
 
 
 footer{
-    
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    padding: 2em 0 2em 0;
 }
+
+    .bloc_footer{
+        width: 100%;
+    }
+
+    .ul_footer{
+        list-style-type: none;
+        line-height: 2em;
+    }
+
+    .titres_footer{
+        margin-left: 2.2em;
+    }
