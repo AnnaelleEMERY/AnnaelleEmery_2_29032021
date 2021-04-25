@@ -96,6 +96,13 @@ header{
     border-top-right-radius: 10px;
 }
 
+.bouton_recherche:hover{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-color: #0065FC;
+    cursor: pointer;
+}
+
 .Filtres{
     display: flex;
     flex-direction: row;
@@ -103,6 +110,7 @@ header{
     padding-left: 1em;
     font-weight: 800;
 }
+
 
 .titre_filtre{
     align-self: center;
@@ -114,6 +122,18 @@ header{
     border-radius: 25px;
     padding-right: 1em;
     margin-right: 1em;
+}
+
+.blocs_filtres:hover{
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+.blocs_filtres:hover .fas{
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #DEEBFF;
+    cursor: pointer;
 }
 
 .fa-money-bill-wave{
@@ -170,9 +190,19 @@ header{
     margin-right: 0.5rem;
 }
 
+
+
+
+
+
 .Les_deux_gros_blocs{
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
+}
+
+.titre_hebergements{
+    margin-left: 1rem;
 }
 
 .Hebergements{
@@ -200,6 +230,11 @@ header{
         box-shadow: 10px 10px 15px #E9E9E9;
     }
 
+    .boite_auberge_hotel:hover{
+        box-shadow: 0px 0px 25px #8a8a8a;
+        cursor: pointer;
+    }
+
     .images_boites{
         width: 100%;
         height: 55%;
@@ -221,14 +256,20 @@ header{
     }
 
     .afficher_plus{
-        margin: 1.5rem 1rem 3rem 1rem;
+        margin: 1.5rem 1rem 3rem 1.2rem;
         font-weight: 800;
         font-size: 1.2rem;
     }
 
     .afficher_plus:hover{
         text-decoration: underline;
+        cursor: pointer;
     }
+
+
+
+
+
 
 .Les_plus_populaires{
     width: 30%;
@@ -245,10 +286,13 @@ header{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        margin-left: 1rem;
     }
 
-    .fa-chart-line{
+    .titre_populaire_et_graph .fas{
         font-size: 1.5rem;
+        cursor: pointer;
+        color: black;
     }
 
     .colonne_populaires{
@@ -267,6 +311,11 @@ header{
         flex-direction: row;
         height: 12rem;
         box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+    .boite_auberge_hotel_populaire:hover{
+        box-shadow: 0px 0px 25px #8a8a8a;
+        cursor: pointer;
     }
 
     .images_boites_populaire{
@@ -292,12 +341,120 @@ header{
         color: #0065FC;
     }
 
+
+
+
+
+
+
+.Activites_marseille{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.titre_activites{
+    margin-left: 1rem;
+}
+
+    .tout_le_bloc_photos_marseille{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    
+    .bloc_1photo_marseille{
+        width: 25%;
+    }
+
+    .photo_et_titre_bloc_grand{
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: white;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        height: 95%;
+        box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+    .photo_et_titre_bloc_grand:hover{
+        box-shadow: 0px 0px 25px #8a8a8a;
+    }
+
+    .image_activites_grand{
+        width: 100%;
+        height: 90%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        object-fit: cover;
+    }
+
+    .titre_activite{
+        margin: 1rem 1.5rem 1rem 1.5rem;
+    }
+
+    .bloc_2photos_marseille{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+
+    .blocs_activites_moyen{
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: white;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        height: 16rem;
+        box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+    .blocs_activites_moyen:hover{
+        box-shadow: 0px 0px 25px #8a8a8a;
+        cursor: pointer;
+    }
+
+        .image_activites_moyen{
+            width: 100%;
+            height: 90%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            object-fit: cover;
+        }
+
+    .blocs_activites_petit{
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: white;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+    .blocs_activites_petit:hover{
+        box-shadow: 0px 0px 25px #8a8a8a;
+        cursor: pointer;
+    }
+
+        .image_activites_petit{
+            width: 100%;
+            height: 95%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            object-fit: cover;
+        }
+
+
 footer{
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
     padding: 2em 0 2em 0;
-
+    position: absolute;
+    right: 0rem;
+    width: 100%;
     margin: 0 0 0 0;
 }
 
