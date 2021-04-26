@@ -99,6 +99,15 @@ header{
     border-top-right-radius: 10px;
 }
 
+.texte_rechercher{
+    padding: 0;
+    margin: 0;
+}
+
+.fas.fa-search{
+    display: none;
+}
+
 .bouton_recherche:hover{
     background-color: #DEEBFF;
     color: #0065FC;
@@ -588,6 +597,235 @@ footer{
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+.main{
+    margin: 0;
+}
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .Titre_du_site{
+            margin: 1rem 0 0 1rem;
+        }
+    
+        .Menu_du_header{
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .ul_menu{
+            border: 1px solid black;
+            list-style-type: none;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    
+        .elements_menu, .elements_menu_3{
+            font-size: 1.3em;
+            margin: 0 0 0 0;
+            padding: 1em 2em 1em 2em;
+            border-bottom: 2px solid #f2f2f2;
+        }
+    
+        .elements_menu:hover{
+            color: #0065FC;
+            border-top: 2px solid white;
+            border-bottom: 2px solid #0065FC ;
+            cursor: pointer;
+        }
+
+        .elements_menu_3{
+            border: 1px solid black;
+            color: #0065FC;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+        }
+    
+    
+        .Bloc_avant_recherche{
+            margin-left: 1rem;
+        }    
+
+        .Bloc_de_recherche{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        .site_search{
+            border: 1px #F2F2F2 solid;
+            display: block;
+            padding: 1em 0.8em 1em 0.8em;
+            margin-right: -1rem;
+            width: 90%;
+        }
+        
+        .fa-map-marker-alt{
+            color: black;
+            padding: 1.2rem 1rem 1.2rem 1rem;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: #F2F2F2;
+        }
+        
+        .bouton_recherche{
+            margin: 1rem 0 1rem 0;
+            padding: 1.4em 1em 1.4em 1em;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            z-index: 1;
+        }
+
+        .fas.fa-search{
+            display: block;
+            color: white;
+            font-size: 1rem;
+        }
+
+        .texte_rechercher{
+            display: none;
+        }
+
+        .site_search:placeholder-shown{
+            font-weight: 800;
+            color: black;
+            font-size: 1rem;
+        }
+
+        .bouton_recherche:hover .fas{
+            color: #0065FC;
+        }
+
+
+
+
+        .Filtres{
+            padding: 0.5rem 0rem 1rem 0rem ;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        
+        
+        .titre_filtre{
+            width: 100%;
+        }
+        
+        .blocs_filtres{
+            margin: 0.5rem 0.5rem 0.5rem 0;
+        }
+
+        .bloc_du_petit_i{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+
+
+.Les_deux_gros_blocs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+   
+    .Hebergements{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        order: 2;
+    }
+    
+        .boite_auberge_hotel{
+            margin: 1rem 1rem 1rem 1rem;
+            background-color: white;
+            border-radius: 35px;
+            padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+            width: 30%;
+            box-shadow: 10px 10px 15px #E9E9E9;
+        }
+    
+        .nom_auberge_hotel{
+            margin: 1rem 1.5rem 1rem 0.2rem;
+            width: 95%;
+        }
+    
+        .description_auberge_hotel{
+            margin: 1rem 1.5rem 1rem 0.2rem;  
+            width: 95%;
+        }
+    
+        .icones_etoiles{
+            margin: 1rem 1.5rem 1rem 0.2rem; 
+            width: 95%;
+        }
+
+
+
+
+    .Les_plus_populaires{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        background-color: #F2F2F2;
+        margin: 0;
+        margin-bottom: 1rem;
+        border-radius: 0;
+     }
+
+            .colonne_populaires{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        
+            .boite_auberge_hotel_populaire{
+                margin: 1rem 0.5rem 1rem 0.5rem;
+                background-color: white;
+                height: 10rem;
+                border-radius: 25px;
+                padding: 0.4rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .images_boites_populaire{
+                width: 45%;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-top-right-radius: 0;
+            }
+
+            .images_boites_populaire.coeur_eau{
+                width: 65%;
+            }
+        
+            .nom_auberge_hotel_populaires{
+                margin: 1rem 0.1rem 1rem 0.2rem;
+                width: 95%;
+                margin-left: 1rem;
+            }
+        
+            .description_auberge_hotel_populaires{
+                margin: 1rem 1.5rem 1rem 0.2rem;
+                width: 95%;
+                margin-left: 1rem;
+            }
+            
+            .push{
+                margin-top: 2rem;
+                margin-left: 1rem;
+            }
 
 }
 
