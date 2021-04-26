@@ -484,6 +484,7 @@ footer{
 
     .titres_footer{
         margin-left: 2.2em;
+        font-weight: 800;
     }
 
 
@@ -826,6 +827,11 @@ footer{
                 margin-top: 2rem;
                 margin-left: 1rem;
             }
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
 
 }
 
