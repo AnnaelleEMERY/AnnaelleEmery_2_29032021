@@ -9,7 +9,6 @@ body{
 }
 
 .main{
-    border: 1px black solid;
     margin: 0 1.5em 0 1.5em;
 }
 
@@ -342,11 +341,14 @@ header{
         margin-top: 35%;
     }
 
-    .Les_deux_gros_blocs .fas, .far{
+    .colonne_populaires .fas, .far{
         color: #0065FC;
     }
 
+    .ligne_hebergements .fas, .far{
+        color: #0065FC;
 
+    }
 
 
 
@@ -385,6 +387,7 @@ header{
 
     .photo_et_titre_bloc_grand:hover{
         box-shadow: 0px 0px 25px #8a8a8a;
+        cursor: pointer;
     }
 
     .image_activites_grand{
