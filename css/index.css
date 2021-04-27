@@ -63,6 +63,9 @@ header{
     }
 
 
+.Bloc_avant_recherche{
+    margin: 2rem 0 0.5rem 1rem;
+}
 
 .Bloc_de_recherche{
     display: flex;
@@ -602,9 +605,12 @@ footer{
 
 
 .Les_deux_gros_blocs{
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
 }
    
     .Hebergements{
@@ -625,7 +631,7 @@ footer{
             margin: 1rem 1rem 1rem 1rem;
             background-color: white;
             border-radius: 25px;
-            width: 88%;
+            width: 90%;
             height: 13rem;
             padding: 0.4rem;
             box-shadow: 10px 10px 15px #E9E9E9;
@@ -808,16 +814,23 @@ footer{
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
 
+.main{
+    margin: 0;
+    padding: 0;
+}
+
+
     .Les_deux_gros_blocs{
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin-top: 3rem;
     }
        
         .Hebergements{
-            width: 92.35%;
+            width: 87.5%;
         }
         
             .boite_auberge_hotel{
@@ -856,7 +869,7 @@ footer{
     
     
         .Les_plus_populaires{
-            width: 91%;
+            width: 85%;
             display: flex;
             flex-direction: column;
             padding: 1.5rem;
@@ -1108,13 +1121,16 @@ footer{
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
 .Les_deux_gros_blocs{
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
 }
    
     .Hebergements{
-        width: 90%;
+        width: 92%;
     }
     
         .boite_auberge_hotel{
