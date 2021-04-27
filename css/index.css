@@ -300,6 +300,7 @@ header{
         font-size: 1.5rem;
         cursor: pointer;
         color: black;
+        margin-left: 1rem;
     }
 
     .colonne_populaires{
