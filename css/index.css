@@ -70,7 +70,8 @@ header{
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    margin-left: 1em;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 .site_search{
@@ -210,7 +211,7 @@ header{
 .Les_deux_gros_blocs{
     display: flex;
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .titre_hebergements{
@@ -219,7 +220,7 @@ header{
 
 .Hebergements{
     width: 70%;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #F2F2F2;
     margin: 1rem;
     border-radius: 20px;
@@ -233,7 +234,7 @@ header{
     }
 
     .boite_auberge_hotel{
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
         background-color: white;
         border-radius: 35px;
         padding: 0.5rem;
@@ -255,19 +256,9 @@ header{
         object-fit: cover;
     }
 
-    .nom_auberge_hotel{
-        margin: 1rem 1.5rem 1rem 1.5rem;
-        width: 95%;
-    }
-
-    .description_auberge_hotel{
-        margin: 1rem 1.5rem 1rem 1.5rem;  
-        width: 95%;
-    }
-
-    .icones_etoiles{
-        margin: 1rem 1.5rem 1rem 1.5rem; 
-        width: 95%;
+    .boite_textes_auberge_hotel{
+        width: 100%;
+        height: 43%;
     }
 
     .afficher_plus{
@@ -290,7 +281,7 @@ header{
     width: 30%;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #F2F2F2;
     margin: 1rem;
     border-radius: 20px;
@@ -302,6 +293,7 @@ header{
         justify-content: space-between;
         align-items: center;
         margin-left: 1rem;
+        width: 90%;
     }
 
     .titre_populaire_et_graph .fas{
@@ -318,7 +310,7 @@ header{
     }
 
     .boite_auberge_hotel_populaire{
-        margin: 1rem 1rem 1rem 1rem;
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
         padding: 0.5rem;
         background-color: white;
         border-radius: 35px;
@@ -333,6 +325,11 @@ header{
         cursor: pointer;
     }
 
+    .textes_description_populaires{
+        margin: 0;
+        padding: 0 0 0 0.5rem;
+    }
+
     .images_boites_populaire{
         width: 30%;
         border-top-left-radius: 30px;
@@ -340,16 +337,8 @@ header{
         object-fit: cover;
     }
 
-    .nom_auberge_hotel_populaires{
-        margin: 1rem 1.5rem 1rem 1.5rem;
-    }
-
-    .description_auberge_hotel_populaires{
-        margin: 1rem 1.5rem 1rem 1.5rem;
-    }
-
     .push{
-        margin-top: 5rem;
+        margin-top: 35%;
     }
 
     .fas, .far{
@@ -595,18 +584,106 @@ footer{
             margin: 1rem 1.5rem 1rem 1.5rem;
             width: 75%;
         }
-}
+
+        .Activites_marseille{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+            .titre_activites{
+                margin-left: 1rem;
+            }
+        
+            .tout_le_bloc_photos_marseille{
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+            }
+            
+            .bloc_1photo_marseille{
+                width: 25%;
+            }
+        
+            .photo_et_titre_bloc_grand{
+                margin: 1rem 1rem 1rem 1rem;
+                background-color: white;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                height: 95%;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+
+            .image_activites_grand{
+                width: 100%;
+                height: 90%;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                object-fit: cover;
+            }
+        
+            .titre_activite{
+                margin: 0.5rem 1.5rem 1rem 1.5rem;
+            }
+        
+            .bloc_2photos_marseille{
+                display: flex;
+                flex-direction: column;
+                width: 25%;
+            }
+        
+            .blocs_activites_moyen{
+                margin: 1rem 1rem 1rem 1rem;
+                background-color: white;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                height: 13rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+        
+                .image_activites_moyen{
+                    width: 100%;
+                    height: 65%;
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                    object-fit: cover;
+                }
+        
+            .blocs_activites_petit{
+                margin: 1rem 1rem 1rem 1rem;
+                background-color: white;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                height: 10rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+        
+                .image_activites_petit{
+                    width: 100%;
+                    height: 60%;
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                    object-fit: cover;
+                }
+
+} /* au dessus de tablette */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
 
 .main{
     margin: 0;
 }
 
     header{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
 
         .Titre_du_site{
@@ -614,27 +691,12 @@ footer{
         }
     
         .Menu_du_header{
-            display: flex;
-            flex-direction: row;
         }
     
         .ul_menu{
-            border: 1px solid black;
-            list-style-type: none;
-            margin: 0 0 0 0;
-            padding: 0 0 0 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
         }
     
         .elements_menu, .elements_menu_3{
-            font-size: 1.3em;
-            margin: 0 0 0 0;
-            padding: 1em 2em 1em 2em;
-            border-bottom: 2px solid #f2f2f2;
         }
     
         .elements_menu:hover{
@@ -645,11 +707,6 @@ footer{
         }
 
         .elements_menu_3{
-            border: 1px solid black;
-            color: #0065FC;
-            font-weight: 700;
-            cursor: pointer;
-            width: 100%;
         }
     
     
@@ -739,32 +796,51 @@ footer{
    
     .Hebergements{
         width: 100%;
-        margin: 0;
+        margin: 0.5rem 0 0 0;
         border-radius: 0;
         order: 2;
+        padding: 0;
+        background-color: white;
+    }
+
+    .ligne_hebergements{
+        display: flex;
+        flex-direction: column;
     }
     
         .boite_auberge_hotel{
             margin: 1rem 1rem 1rem 1rem;
             background-color: white;
-            border-radius: 35px;
-            padding: 0.5rem 0.5rem 1.5rem 0.5rem;
-            width: 30%;
+            border-radius: 25px;
+            width: 88%;
+            height: 13rem;
+            padding: 0.4rem;
             box-shadow: 10px 10px 15px #E9E9E9;
         }
-    
+
+        .images_boites{
+            width: 100%;
+            height: 60%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            object-fit: cover;
+        }
+
         .nom_auberge_hotel{
-            margin: 1rem 1.5rem 1rem 0.2rem;
+            font-size: 1.1rem;
+            margin: 0.1rem 0.5rem 0.5rem 0.2rem;
             width: 95%;
         }
     
         .description_auberge_hotel{
-            margin: 1rem 1.5rem 1rem 0.2rem;  
+            font-size: 1rem;
+            margin: 0.1rem 0.5rem 0.5rem 0.2rem;
             width: 95%;
         }
     
         .icones_etoiles{
-            margin: 1rem 1.5rem 1rem 0.2rem; 
+            font-size: 0.8rem;
+            margin: 0.1rem 0.5rem 0.5rem 0.2rem;
             width: 95%;
         }
 
@@ -807,10 +883,6 @@ footer{
                 border-top-right-radius: 0;
             }
 
-            .images_boites_populaire.coeur_eau{
-                width: 65%;
-            }
-        
             .nom_auberge_hotel_populaires{
                 margin: 1rem 0.1rem 1rem 0.2rem;
                 width: 95%;
@@ -824,14 +896,434 @@ footer{
             }
             
             .push{
-                margin-top: 2rem;
+                margin-top: 2.5rem;
                 margin-left: 1rem;
             }
 
+
+
+
+
+        .Activites_marseille{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+            
+            .titre_activites{
+                margin-left: 1rem;
+
+            }
+            
+            .tout_le_bloc_photos_marseille{
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                margin: 1rem 0 1rem 0;
+            }
+                
+            .bloc_1photo_marseille{
+                width: 100%;
+            }
+            
+            .photo_et_titre_bloc_grand{
+                margin: 0 1rem 1.5rem 1rem;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                height: 13rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+            
+            .image_activites_grand{
+                width: 100%;
+                height: 85%;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                object-fit: cover;
+            }
+            
+            .titre_activite{
+                font-size: 1.1rem;
+                margin: 1rem 1.5rem 1rem 1.5rem;
+            }
+            
+            .bloc_2photos_marseille{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .blocs_activites_moyen{
+                margin: 0 1rem 1.5rem 1rem;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                height: 13rem;
+            }
+            
+        .image_activites_moyen{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+            
+             .blocs_activites_petit{
+                margin: 0 1rem 1.5rem 1rem;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                height: 13rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+            
+            
+        .image_activites_petit{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
 footer{
     display: flex;
     flex-direction: column;
 }
 
+} /* telephones */
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+
+    .Les_deux_gros_blocs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+       
+        .Hebergements{
+            width: 92.35%;
+        }
+        
+            .boite_auberge_hotel{
+                margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+                background-color: white;
+                border-radius: 35px;
+                padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+                width: 30%;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+        
+            .nom_auberge_hotel{
+                margin: 1rem 1.5rem 1rem 0.2rem;
+                width: 95%;
+            }
+        
+            .description_auberge_hotel{
+                margin: 1rem 1.5rem 1rem 0.2rem;  
+                width: 95%;
+            }
+        
+            .icones_etoiles{
+                margin: 1rem 1.5rem 1rem 0.2rem; 
+                width: 95%;
+            }
+    
+
+            .description_auberge_hotel_populaires, .description_auberge_hotel{
+                font-size: 0.95rem;
+            }
+    
+            .nom_auberge_hotel, .nom_auberge_hotel_populaires{
+                font-size: 1rem;
+            }
+
+    
+    
+        .Les_plus_populaires{
+            width: 91%;
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            background-color: #F2F2F2;
+            margin: 1rem;
+            border-radius: 20px;
+         }
+    
+                .colonne_populaires{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            
+                .boite_auberge_hotel_populaire{
+                    margin: 1rem 1rem 1rem 1rem;
+                    background-color: white;
+                    border-radius: 35px;
+                    padding: 0.5rem;
+                    height: 18em;
+                    width: 30%;
+                    box-shadow: 10px 10px 15px #E9E9E9;
+                    display: flex;
+                    flex-direction: column;
+                }
+    
+                .images_boites_populaire{
+                    width: 100%;
+                    height: 55%;
+                    border-bottom-left-radius: 0;
+                    border-top-right-radius: 30px;
+                }
+            
+                .nom_auberge_hotel_populaires{
+                    margin: 1rem 1.5rem 1rem 0.2rem;
+                    width: 95%;
+                }
+            
+                .description_auberge_hotel_populaires{
+                    margin: 1rem 1.5rem 1rem 0.2rem;
+                    width: 95%;
+                }
+    
+    
+            .blocs_activites_petit{
+                border-radius: 30px;
+                height: 10rem;
+            }
+    
+            .blocs_activites_moyen{
+                border-radius: 30px;
+                height: 14rem;
+            }
+    
+            .photo_et_titre_bloc_grand{
+                border-radius: 30px;
+                height: 93%;
+            }
+    
+    
+            .titre_activite{
+                margin: 1rem 1.5rem 1rem 1.5rem;
+                width: 75%;
+            }
+
+
+
+.Activites_marseille{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
+    .titre_activites{
+        margin-left: 1rem;
+    }
+
+    .tout_le_bloc_photos_marseille{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    
+    .bloc_1photo_marseille{
+        width: 25%;
+    }
+
+    .photo_et_titre_bloc_grand{
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: white;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        height: 95%;
+        box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+    .photo_et_titre_bloc_grand:hover{
+        box-shadow: 0px 0px 25px #8a8a8a;
+    }
+
+    .image_activites_grand{
+        width: 100%;
+        height: 90%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        object-fit: cover;
+    }
+
+    .titre_activite{
+        margin: 1rem 1.5rem 1rem 1.5rem;
+    }
+
+    .bloc_2photos_marseille{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+    }
+
+    .blocs_activites_moyen{
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: white;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        height: 16rem;
+        box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+        .image_activites_moyen{
+            width: 100%;
+            height: 90%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            object-fit: cover;
+        }
+
+    .blocs_activites_petit{
+        margin: 1rem 1rem 1rem 1rem;
+        background-color: white;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        height: 14rem;
+        box-shadow: 10px 10px 15px #E9E9E9;
+    }
+
+        .image_activites_petit{
+            width: 100%;
+            height: 95%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            object-fit: cover;
+        }
+
+
+
+
+        .Activites_marseille{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+            .titre_activites{
+                margin-left: 1rem;
+            }
+        
+            .tout_le_bloc_photos_marseille{
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+            }
+            
+            .bloc_1photo_marseille{
+                width: 25%;
+            }
+        
+            .photo_et_titre_bloc_grand{
+                margin: 1rem 1rem 1rem 1rem;
+                background-color: white;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                height: 95%;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+
+            .image_activites_grand{
+                width: 100%;
+                height: 90%;
+                border-top-left-radius: 30px;
+                border-top-right-radius: 30px;
+                object-fit: cover;
+            }
+        
+            .titre_activite{
+                margin: 0.5rem 1.5rem 1rem 1.5rem;
+            }
+        
+            .bloc_2photos_marseille{
+                display: flex;
+                flex-direction: column;
+                width: 25%;
+            }
+        
+            .blocs_activites_moyen{
+                margin: 1rem 1rem 1rem 1rem;
+                background-color: white;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                height: 13rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+        
+                .image_activites_moyen{
+                    width: 100%;
+                    height: 65%;
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                    object-fit: cover;
+                }
+        
+            .blocs_activites_petit{
+                margin: 1rem 1rem 1rem 1rem;
+                background-color: white;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                height: 10rem;
+                box-shadow: 10px 10px 15px #E9E9E9;
+            }
+        
+                .image_activites_petit{
+                    width: 100%;
+                    height: 60%;
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                    object-fit: cover;
+                }
+
+
+} /* tablettes */
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1191px) {
+
+    .boite_auberge_hotel{
+        height: 18.5rem;
+    }
+
+    .nom_auberge_hotel, .nom_auberge_hotel_populaires{
+        font-size: 0.98rem;
+    }
+
+    .boite_textes_auberge_hotel{
+        padding-top: 0;
+    }
+
+    .titre_activite{
+        margin: 1rem 1.5rem 1rem 1.5rem;
+    }
+
+    .description_auberge_hotel_populaires, .description_auberge_hotel{
+        font-size: 0.95rem;
+    }
+
+    .push{
+        margin-top: 50%;
+    }
+
+    .image_activites_moyen{
+        width: 100%;
+        height: 80%;
+    }
+
+    .titre_activite{
+        margin: 0.8rem 1.5rem 1rem 1.5rem;
+    }
+}
