@@ -1144,13 +1144,13 @@ header{
     flex-direction: column;
 }
 
-.Titre_du_site{
+    .Titre_du_site{
     width: 100%;
-}
+    }
 
-.Menu_du_header{
+    .Menu_du_header{
     width: 100%;
-}
+    }
     .ul_menu{
         display: flex;
         flex-direction: row;
