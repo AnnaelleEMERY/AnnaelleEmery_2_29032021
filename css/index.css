@@ -316,11 +316,11 @@ header{
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .boite_auberge_hotel_populaire{
-        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+        margin: 0.5rem;
         padding: 0.5rem;
         background-color: white;
         border-radius: 35px;
@@ -670,7 +670,7 @@ footer{
         }
 
         .nom_auberge_hotel{
-            font-size: 1.1rem;
+            font-size: 1rem;
             margin: 0.1rem 0.5rem 0.5rem 0.2rem;
             width: 95%;
         }
@@ -730,6 +730,7 @@ footer{
                 margin: 1rem 0.1rem 1rem 0.2rem;
                 width: 95%;
                 margin-left: 1rem;
+                font-size: 1rem;
             }
         
             .description_auberge_hotel_populaires{
