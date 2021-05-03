@@ -943,11 +943,13 @@ footer{
                     height: 55%;
                     border-bottom-left-radius: 0;
                     border-top-right-radius: 30px;
+                    object-fit: cover;
                 }
             
                 .nom_auberge_hotel_populaires{
                     margin: 1rem 1.5rem 1rem 0.2rem;
                     width: 95%;
+                    font-size: 1rem;
                 }
             
                 .description_auberge_hotel_populaires{
@@ -1306,6 +1308,7 @@ header{
             .nom_auberge_hotel_populaires{
                 margin: 1rem 1.5rem 1rem 0.2rem;
                 width: 95%;
+                font-size: 1rem;
             }
         
             .description_auberge_hotel_populaires{
