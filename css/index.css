@@ -1163,6 +1163,13 @@ footer{
 } /* tablettes */
 
 
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 643px) {
+    .titre_activite{
+        font-size: 1rem;
+    }
+}
+
 @media only screen and (min-device-width : 481px) and (max-device-width : 643px) {
 
     footer{
