@@ -1164,11 +1164,11 @@ footer{
 
 
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 643px) {
+@media only screen and (min-device-width : 481px) and (max-device-width : 673px) {
     .titre_activite{
         font-size: 1rem;
     }
-}
+} /* modifications seulement au niveau de Activités Marseille */
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 643px) {
 
