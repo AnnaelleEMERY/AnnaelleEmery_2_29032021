@@ -492,11 +492,14 @@ footer{
         font-weight: 800;
     }
 
+    .liste_footer{
+        width: max-content;
+    }
     
-.liste_footer:hover{
+    .liste_footer:hover{
     text-decoration: underline;
     cursor: pointer;
-}
+    }
 
 
 
@@ -1149,8 +1152,25 @@ footer{
                     object-fit: cover;
                 }
 
+    footer{
+
+    }
 
 } /* tablettes */
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 643px) {
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bloc_footer{
+        width: 50%;
+    }
+} /* modifications seulement au niveau du footer */
 
 @media only screen and (min-device-width : 481px) and (max-device-width : 633px) {
 
@@ -1426,5 +1446,5 @@ header{
     .titre_activite{
         margin: 0.8rem 1.5rem 1rem 1.5rem;
     }
-}
+} /* details entre taille desktop et tablette */
 
