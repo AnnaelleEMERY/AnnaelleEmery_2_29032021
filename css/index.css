@@ -945,6 +945,12 @@ footer{
                     border-top-right-radius: 30px;
                     object-fit: cover;
                 }
+
+                .textes_description_populaires{
+                    margin: 0;
+                    margin-left: 0rem;
+                    padding: 0 0 0 0.5rem;
+                }
             
                 .nom_auberge_hotel_populaires{
                     margin: 1rem 1.5rem 1rem 0.2rem;
@@ -1305,6 +1311,12 @@ header{
                 border-top-right-radius: 30px;
             }
         
+            .textes_description_populaires{
+                margin: 0;
+                margin-left: 0rem;
+                padding: 0 0 0 0.5rem;
+            }
+
             .nom_auberge_hotel_populaires{
                 margin: 1rem 1.5rem 1rem 0.2rem;
                 width: 95%;
