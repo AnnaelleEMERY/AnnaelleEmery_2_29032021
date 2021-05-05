@@ -82,7 +82,7 @@ header{
     margin-bottom: 1rem;
 }
 
-.site_search{
+#site_search{
     border: 1px #F2F2F2 solid;
     display: block;
     padding: 0.8em 0.8em 0.8em 0.8em;
@@ -569,7 +569,7 @@ footer{
             margin-right: 1rem;
         }
         
-        .site_search{
+        #site_search{
             border: 1px #F2F2F2 solid;
             display: block;
             padding: 1em 0.8em 1em 0.8em;
