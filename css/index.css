@@ -508,7 +508,7 @@ footer{
 
 
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
     
 
 .main{
@@ -849,7 +849,7 @@ footer{
 
 } /* telephones */
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+@media only screen and (min-width : 481px) and (max-width : 767px) {
 
 .main{
     margin: 0;
@@ -1164,21 +1164,17 @@ footer{
                     object-fit: cover;
                 }
 
-    footer{
-
-    }
-
 } /* tablettes */
 
 
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 673px) {
+@media only screen and (min-width : 481px) and (max-width : 673px) {
     .titre_activite{
         font-size: 1rem;
     }
 } /* modifications seulement au niveau de Activités Marseille */
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 643px) {
+@media only screen and (min-width : 481px) and (max-width : 643px) {
 
     footer{
         display: flex;
@@ -1191,7 +1187,7 @@ footer{
     }
 } /* modifications seulement au niveau du footer */
 
-@media only screen and (min-device-width : 481px) and (max-device-width : 633px) {
+@media only screen and (min-width : 481px) and (max-width : 633px) {
 
 header{
     display: flex;
@@ -1233,7 +1229,7 @@ header{
 
 } /* modifications seulement au niveau du menu */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
 
 .Les_deux_gros_blocs{
         width: 100%;
@@ -1437,7 +1433,7 @@ header{
 
 } /* au dessus de tablette */
 
-@media only screen and (min-device-width : 1025px) and (max-device-width : 1196px) {
+@media only screen and (min-width : 1025px) and (max-width : 1196px) {
 
     .boite_auberge_hotel{
         height: 18.5rem;
