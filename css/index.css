@@ -441,7 +441,7 @@ header{
 
         .image_activites_moyen{
             width: 100%;
-            height: 90%;
+            height: 80%;
             border-top-left-radius: 30px;
             border-top-right-radius: 30px;
             object-fit: cover;
@@ -464,7 +464,7 @@ header{
 
         .image_activites_petit{
             width: 100%;
-            height: 95%;
+            height: 75%;
             border-top-left-radius: 30px;
             border-top-right-radius: 30px;
             object-fit: cover;
@@ -572,7 +572,7 @@ footer{
         #site_search{
             border: 1px #F2F2F2 solid;
             display: block;
-            padding: 1em 0.8em 1em 0.8em;
+            padding: 1.1rem 0.8rem 1.1rem 0.8rem;
             margin-right: -1rem;
             width: 90%;
         }
@@ -638,7 +638,23 @@ footer{
             margin-right: 1rem;
         }
 
+        .fa-dog{
+            background-color: #DEEBFF;
+            color: #0065FC;
+            padding: 0.6em;
+            border-radius: 100%;
+            margin-right: 0.5em;
+            padding: 0.6em 0.6em 0.6em 0.6em;
+        }
 
+        .fa-heart{
+            background-color: #DEEBFF;
+            color: #0065FC;
+            padding: 0.6em;
+            border-radius: 100%;
+            margin-right: 0.5em;
+            padding: 0.6em 0.6em 0.6em 0.6em;
+        }
 
 .Les_deux_gros_blocs{
         width: 100%;
@@ -795,7 +811,7 @@ footer{
             
             .image_activites_grand{
                 width: 100%;
-                height: 85%;
+                height: 75%;
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
                 object-fit: cover;
@@ -822,6 +838,8 @@ footer{
             }
             
         .image_activites_moyen{
+            width: 100%;
+            height: 75%;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
         }
@@ -836,8 +854,9 @@ footer{
                 box-shadow: 10px 10px 15px #E9E9E9;
             }
             
-            
         .image_activites_petit{
+            width: 100%;
+            height: 75%;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
         }
@@ -860,6 +879,13 @@ footer{
     font-size: 1.1rem;
 }
 
+.fa-dog{
+    padding: 0.6em 0.6em 0.6em 0.6em;
+}
+
+.fa-heart{
+    padding: 0.6em 0.6em 0.6em 0.6em;
+}
 
     .Les_deux_gros_blocs{
         width: 100%;
@@ -898,7 +924,6 @@ footer{
                 width: 95%;
             }
     
-
             .description_auberge_hotel_populaires, .description_auberge_hotel{
                 font-size: 0.95rem;
             }
@@ -1222,11 +1247,6 @@ header{
         cursor: pointer;
     }
 
-    .titre_activite{
-        font-size: 1rem;
-    }
-
-
 } /* modifications seulement au niveau du menu */
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
@@ -1387,6 +1407,7 @@ header{
         
             .titre_activite{
                 margin: 0.5rem 1.5rem 1rem 1.5rem;
+                font-size: 1.1rem;
             }
         
             .bloc_2photos_marseille{
@@ -1444,8 +1465,9 @@ header{
     }
 
     .boite_textes_auberge_hotel{
-        padding: 0;
+        padding: 0 0.5rem 0 0;
         margin: 0.5rem;
+        margin-left: 0;
     }
 
     .titre_activite{
