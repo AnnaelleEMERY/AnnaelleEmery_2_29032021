@@ -492,8 +492,7 @@ footer{
     flex-direction: row;
     background-color: #F2F2F2;
     padding: 2em 0 2em 0;
-    position: absolute;
-    right: 0rem;
+
     width: 100%;
     margin: 0 0 0 0;
 }
@@ -1478,7 +1477,9 @@ header{
 
     .boite_auberge_hotel{
         height: 18.5rem;
-    }
+        margin-right: 0.6rem;
+        margin-left: 0.6rem;
+        }
 
     .nom_auberge_hotel, .nom_auberge_hotel_populaires{
         font-size: 0.98rem;
@@ -1511,4 +1512,57 @@ header{
         margin: 0.8rem 1.5rem 1rem 1.5rem;
     }
 } /* details entre taille desktop et tablette */
+
+@media only screen and (min-width: 1197px){
+
+    .ligne_hebergements{
+        margin: 0;
+    }
+
+    #Hebergements{
+        margin-right: 0.5rem;
+    }
+
+    .boite_auberge_hotel{
+        height: 21rem;
+        margin-right: 0.6rem;
+        margin-left: 0.6rem;
+    }
+
+    .nom_auberge_hotel{
+        font-size: 1.1rem;
+        padding-right: 0;
+    }
+
+    .boite_textes_auberge_hotel{
+        margin-top: 0;
+        width: 13rem;
+    }
+
+    .nom_auberge_hotel, .description_auberge_hotel, .icones_etoiles{
+        margin-left: 0.5rem;
+    }
+
+    .colonne_populaires{
+        height: 88%;
+    }
+
+} /* details grands écrans */
+ 
+@media only screen and (min-width: 2000px){
+
+	body {
+    width: 1500px;
+    font-size: 1.1rem;
+	padding-right: 2px;
+	padding-left: 2px;
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+    }
+
+    .push{
+        margin-top: 3rem;
+    }
+} /* grands écrans */
 
