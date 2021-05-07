@@ -736,6 +736,11 @@ footer{
                 justify-content: space-between;
             }
         
+            .textes_description_populaires{
+                margin-left: 0;
+                padding-left: 0;
+            }
+
             .boite_auberge_hotel_populaire{
                 margin: 1rem 0.5rem 1rem 0.5rem;
                 background-color: white;
@@ -1190,7 +1195,6 @@ footer{
                 }
 
 } /* tablettes */
-
 
 
 @media only screen and (min-width : 481px) and (max-width : 673px) {
