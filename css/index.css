@@ -55,9 +55,12 @@ header{
     }
 
     .elements_menu:hover{
-        color: #0065FC;
         border-top: 2px solid #0065FC ;
         cursor: pointer;
+    }
+
+    .elements_menu:hover a{
+        color: #0065FC;
     }
 
     .elements_menu_3{
@@ -66,6 +69,19 @@ header{
         cursor: pointer;
     }
 
+    a{
+        text-decoration: none;
+    }
+
+    a:visited{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:active{
+        text-decoration: none;
+        color: black;
+    }
 
 
     
@@ -226,7 +242,7 @@ header{
     margin-left: 1rem;
 }
 
-.Hebergements{
+#Hebergements{
     width: 70%;
     padding: 1rem;
     background-color: #F2F2F2;
@@ -370,7 +386,7 @@ header{
 
 
 
-.Activites_marseille{
+#Activites_marseille{
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
@@ -665,7 +681,7 @@ footer{
         margin-top: 3rem;
 }
    
-    .Hebergements{
+    #Hebergements{
         width: 100%;
         margin: 0.5rem 0 0 0;
         border-radius: 0;
@@ -781,7 +797,7 @@ footer{
 
 
 
-        .Activites_marseille{
+        #Activites_marseille{
             display: flex;
             flex-direction: column;
             margin-top: 3rem;
@@ -901,7 +917,7 @@ footer{
         margin-top: 3rem;
     }
        
-        .Hebergements{
+        #Hebergements{
             width: 87.5%;
         }
         
@@ -1017,7 +1033,7 @@ footer{
 
 
 
-.Activites_marseille{
+#Activites_marseille{
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
@@ -1109,7 +1125,7 @@ footer{
 
 
 
-        .Activites_marseille{
+        #Activites_marseille{
             display: flex;
             flex-direction: column;
             margin-top: 3rem;
@@ -1264,7 +1280,7 @@ header{
         margin-top: 3rem;
 }
    
-    .Hebergements{
+    #Hebergements{
         width: 92%;
     }
     
@@ -1370,7 +1386,7 @@ header{
             width: 75%;
         }
 
-        .Activites_marseille{
+        #Activites_marseille{
             display: flex;
             flex-direction: column;
             margin-top: 3rem;
